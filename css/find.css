@@ -1,0 +1,5 @@
+.find .find__options {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
