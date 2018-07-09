@@ -1,0 +1,42 @@
+.more {
+    background: #f2f2f2;
+}
+
+.more .more__header {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more .more__header i {
+    color: #523737;
+}
+
+.more__header .more__header-column {
+    display: flex;
+    align-items: center;
+}
+
+.more__header .more__header-column img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.more__header-info .more__header-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.more__header-info .more__header-subtitle {
+    font-size: 12px;
+    color: #919191;
+}
+
+.more .more__options {
+    margin-bottom: 10px;
+
+}
