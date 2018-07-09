@@ -9,33 +9,60 @@
     <title>Chat</title>
 </head>
 <body>
-<header>
-    <div class="header_top">
-        <div class="header_column">
-            <i class="fa fa-plane"></i>
-            <i class="fa fa-wifi"></i>
+    <header>
+        <div class="header_top">
+            <div class="header_column">
+                <i class="fa fa-plane"></i>
+                <i class="fa fa-wifi"></i>
+            </div>
+            <div class="header_column">
+                <span class="header_time">18:38</span>
+            </div>
+            <div class="header_column">
+                <i class="fa fa-moon-o"></i>
+                <i class="fa fa-bluetooth-b"></i>
+                <span class="header_battery">66% <i class="fa fa-battery-full"></i> </span>
+            </div>
         </div>
-        <div class="header_column">
-            <span class="header_time">18:38</span>
+        <div class="header_bottom">
+            <div class="header_column">
+                <i class="fa fa-chevron-left fa-lg"></i>
+            </div>
+            <div class="header_column">
+                <span class="header_text">노원식</span>
+            </div>
+            <div class="header_column">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-bars"></i>
+            </div>
         </div>
-        <div class="header_column">
-            <i class="fa fa-moon-o"></i>
-            <i class="fa fa-bluetooth-b"></i>
-            <span class="header_battery">66% <i class="fa fa-battery-full"></i> </span>
+    </header>
+    <main class="chat">
+        <div class="data-divider">
+            <span class="date-divider__text">Wednesday, August 2, 2018</span>
+        </div>
+        <div class="chat__message chat__message-from-me">
+            <span class="chat__message-time">17:55</span>
+            <span class="chat__message-body">Hello! This is a test message. </span>
+        </div>
+        <div class="chat__message chat__message-to-me">
+            <img src="images/avatar.jpg" alt="" class="chat__message-avatar">
+            <div class="chat__message-center">
+                <h3 class="chat__message-username"></h3>
+                <span class="chat__message-body">This is an answer. </span>
+            </div>
+            <span class="chat__message-time">17:58</span>
+        </div>
+    </main>
+    <div class="type-message">
+        <i class="fa fa-plus fa-2x"></i>
+        <div class="type-message__input">
+            <input type="text">
+            <i class="fa fa-smile-o"></i>
+            <span class="record-message">
+                <i class="fa fa-microphone"></i>
+            </span>
         </div>
     </div>
-    <div class="header_bottom">
-        <div class="header_column">
-            <i class="fa fa-chevron-left fa-lg"></i>
-        </div>
-        <div class="header_column">
-            <span class="header_text">노원식</span>
-        </div>
-        <div class="header_column">
-            <i class="fa fa-search"></i>
-            <i class="fa fa-bars"></i>
-        </div>
-    </div>
-</header>
 </body>
 </html>
