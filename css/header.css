@@ -5,8 +5,11 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 3;
-    -webkit-app-region: drag;
+    z-index: 2;
+}
+
+.top-header a {
+    color: white;
 }
 
 .top-header .header__top,
