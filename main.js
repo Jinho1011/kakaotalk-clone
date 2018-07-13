@@ -11,7 +11,8 @@ function createWindow () {
       width: 360,
       height: 600,
       frame: false,
-      resizable: false
+      resizable: false,
+      alwaysOnTop: true
   })
 
   // and load the index.html of the app.
